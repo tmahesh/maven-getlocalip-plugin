@@ -1,1 +1,16 @@
-get localip of your machine in maven build
+Do this to get localip of your machine in maven a maven project
+
+<plugin>
+  <groupId>com.hs18</groupId>
+  <artifactId>maven-getlocalip-plugin</artifactId>
+  <version>1.0.0hs18</version>
+  <executions>
+    <execution>
+      <id>get-local-ip</id>
+      <phase>initialize</phase>
+      <goals>
+        <goal>getlocalip</goal>
+      </goals>
+    </execution>
+  </executions>
+</plugin>                        
