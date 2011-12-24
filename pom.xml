@@ -7,6 +7,15 @@
   <version>1.0.0hs18</version>
   <name>maven-getlocalip-plugin Maven Mojo</name>
   <url>http://maven.apache.org</url>
+  <developers>
+  	<developer>
+  		<id>tmahesh</id>
+  		<name>Tiyyagura Mahesh</name>
+  		<email>tmahesh@gmail.com</email>
+  		<url>http://twiter.com/tmahesh</url>
+  		<timezone>IN</timezone>
+  	</developer>
+  </developers>
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
@@ -25,4 +34,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>hs18releases</id>
+      <name>Internal Releases</name>
+      <url>http://hg.hs18.lan:8081/nexus/content/repositories/homeshop18/</url>
+    </repository>
+  </distributionManagement>
 </project>

@@ -28,7 +28,7 @@ To test if its working, u can echo the localip to console like this in your proj
 
 <plugin>
   <groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-antrun-plugin</artifactId>
+  <artifactId>maven-antrun-plugin</artifactId>
 	<version>1.7</version>
 	<executions>
 		<execution>
