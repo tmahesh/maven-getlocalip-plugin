@@ -1,4 +1,10 @@
-Do this to get localip of your machine in maven a maven project
+Do this to get localip of your machine in a maven project
+
+Run mvn install on the checkout folder
+1. cd maven-getlocalip
+2. mvn install
+
+In the project where you want to get localip as a maven property, add this:
 
 <plugin>
   <groupId>com.hs18</groupId>
@@ -13,4 +19,28 @@ Do this to get localip of your machine in maven a maven project
       </goals>
     </execution>
   </executions>
-</plugin>                        
+</plugin>  
+
+
+
+
+To test if its working, u can echo the localip to console like this in your project's pom.xml:
+
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-antrun-plugin</artifactId>
+	<version>1.7</version>
+	<executions>
+		<execution>
+			<phase>compile</phase>
+			<goals>
+				<goal>run</goal>
+			</goals>
+			<configuration>
+				<target>
+					<echo>=====LocalIP: ${localIP}</echo>
+				</target>
+			</configuration>
+		</execution>
+	</executions>
+</plugin>
