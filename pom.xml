@@ -34,11 +34,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-      <id>hs18releases</id>
-      <name>Internal Releases</name>
-      <url>http://hg.hs18.lan:8081/nexus/content/repositories/homeshop18/</url>
-    </repository>
-  </distributionManagement>
 </project>

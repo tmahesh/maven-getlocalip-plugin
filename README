@@ -8,8 +8,8 @@ In the project where you want to get localip as a maven property, add this:
 
 <plugin>
   <groupId>com.hs18</groupId>
-  <artifactId>maven-getlocalip-plugin</artifactId>
-  <version>1.0.0hs18</version>
+  <artifactId>getlocalip-maven-plugin</artifactId>
+  <version>1.0.0</version>
   <executions>
     <execution>
       <id>get-local-ip</id>
