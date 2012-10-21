@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.hs18</groupId>
-  <artifactId>maven-getlocalip-plugin</artifactId>
+  <artifactId>getlocalip-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
-  <version>1.0.0hs18</version>
-  <name>maven-getlocalip-plugin Maven Mojo</name>
+  <version>1.0.0</version>
+  <name>getlocalip-maven-plugin Maven Mojo</name>
   <url>http://maven.apache.org</url>
   <developers>
   	<developer>
